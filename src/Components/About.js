@@ -35,7 +35,7 @@ relationships & multi-tasking skills, enabling me to be productive.
               the company.
             </p>
             <p style={{ color: "#728394" }}>
-              I also like to do <b>Compititive Programing.</b> Please checkout my <a style = {{color : ""}} target="_blank" href = "https://leetcode.com/suyogshahb701/" >LeetCode</a> , <a style = {{color : ""}} target="_blank" href = "https://www.codechef.com/users/suyog_shah" >CodeChef</a> , <a style = {{color : ""}} target="_blank" href = "https://codeforces.com/profile/suyogshahb701" >Codeforces</a> handle.
+              I also like to do <b>Competitive Programming.</b> Please checkout my <a style = {{color : ""}} target="_blank" href = "https://leetcode.com/suyogshahb701/" >LeetCode</a> , <a style = {{color : ""}} target="_blank" href = "https://www.codechef.com/users/suyog_shah" >CodeChef</a> , <a style = {{color : ""}} target="_blank" href = "https://codeforces.com/profile/suyogshahb701" >Codeforces</a> handle.
             </p>
             <br></br>
             <Row>
