@@ -7,9 +7,20 @@ import WorkIcon from "@material-ui/icons/Work";
 
 export default function Experience() {
   const items = [
-
     {
-      date: "June 2022 - Present ",
+      date: "Feb 2024 - Present",
+      cardTitle: "TransUnion, Pune",
+      cardSubtitle: "Application Development Intern",
+      cardDetailedText: [
+        "Developed an internal Demand Fulfillment Portal using Java Spring Boot for RESTful APIs.",
+        "Engineered algorithms for member allocation based on manager-provided projections, approved by admin.",
+        "Implemented secure role-based authentication using Spring Security.",
+      ].map(function (text) {
+        return <li>{text}</li>;
+      }),
+    },
+    {
+      date: "June 2022 - June 2024 ",
       cardTitle: "Enactus S.P.I.T.",
       cardSubtitle: "Vice-President",
       cardDetailedText: [
@@ -33,17 +44,6 @@ export default function Experience() {
         return <li>{text}</li>;
       }),
     }
-    // {
-    //   date: "September 2019 – October 2019",
-    //   cardTitle: "Techskills IT Consultants",
-    //   cardSubtitle: "Backend Developer",
-    //   cardDetailedText: [
-    //     "Developed applications using Spring Framework for Backend Restful API’s.",
-    //     "Wrote SQL/JPQL queries for Data persistence using Spring Data JPA.",
-    //   ].map(function (text) {
-    //     return <li>{text}</li>;
-    //   }),
-    // },
     // {
     //   date: "August 2018 – January 2019",
     //   cardTitle: "TechSkills IT Consultants",

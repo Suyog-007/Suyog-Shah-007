@@ -15,6 +15,21 @@ import RemoveIcon from "@material-ui/icons/Remove";
 const Projects = () => {
   const items = [
     {
+      cardTitle: "BiFrost - No code ETL Tool",
+      cardDetailedText: [
+        "Developed a versatile web-based No-code tool, offering seamless data integration through an intuitive drag-and-drop GUI, catering to both stream and batch processing needs. ",
+      ].map(function (text) {
+      return <li>{text}</li>;
+    }),
+  technologies: ["React", "Django", "Apache Beam", "Apache Flink", "Redis", "PostgreSQL"],
+    links: [
+      {
+        // url: "https://github.com/Suyog-007/Barcalays-Data-Protection-CLI-Package",
+        text: "Paper Under Publicaiton",
+      },
+    ],
+    },
+    {
       cardTitle: "CLI Package - Data Protection",
       cardDetailedText: [
         "Automated data transfer between on-premises & AWS cloud using shell script CLI package.",

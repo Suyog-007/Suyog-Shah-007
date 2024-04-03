@@ -11,28 +11,28 @@ const Education = () => {
     {
       cardTitle: "Bharatiya Vidya Bhavan's Sardar Patel Institute of Technology (S.P.I.T.), Mumbai",
       cardSubtitle: "Bachelor of Technology in Computer Engineering",
-      coursesHead: "Courses: ",
-      cardDetailedText: [
-        "Blockchain",
-        "Data Structures & Algorithms",
-        "Artificial Intelligence",
-        "Machine Learning",
-        "Operating Systems",
-        "Advanced Database Management Systems",
-        "Computer Communication Networks",
-        "Distributing Computing",
-        "Advanced Mathematics"
-      ].map(function (course) {
-        return <li>{course}</li>;
-      }),
+      cardDetailedText: "CGPA : 7.65",
+      // cardDetailedText: [
+      //   // "Blockchain",
+      //   // "Data Structures & Algorithms",
+      //   // "Artificial Intelligence",
+      //   // "Machine Learning",
+      //   // "Operating Systems",
+      //   // "Advanced Database Management Systems",
+      //   // "Computer Communication Networks",
+      //   // "Distributing Computing",
+      //   // "Advanced Mathematics"
+      // ].map(function (course) {
+      //   return <li>{course}</li>;
+      // }),
       date: "March 2021 - Present (Completing in July 2024)",
     },
-    {
-      cardTitle: "Indian Institute Of Technology, Madras",
-      cardSubtitle: "Bachelor of Science in Data Science Course",
-      // cardDetailedText: "CGPA: 8.72 (First class with Distinction)",
-      date: "August 2022 - Present",
-    },
+    // {
+    //   cardTitle: "Indian Institute Of Technology, Madras",
+    //   cardSubtitle: "Bachelor of Science in Data Science Course",
+    //   // cardDetailedText: "CGPA: 8.72 (First class with Distinction)",
+    //   date: "August 2022 - Present",
+    // },
     {
       cardTitle: "Chandrabhan Sharma College of Arts, Science and Commerce , Mumbai",
       cardSubtitle: "HSC 12th in Science",
